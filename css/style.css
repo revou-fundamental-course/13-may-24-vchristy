@@ -1,0 +1,56 @@
+h1, p, h3, label {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+p[id="footer-text"] {
+    text-align: center; 
+    font-family: 'Courier New', Courier, monospace; 
+    font-size: smaller;
+    color: rgb(143, 175, 197);
+}
+
+button {
+    background-color: rgb(0, 149, 255);
+    color: white;
+    border: none;
+    border-radius: 8px;
+    padding: 15px 32px;
+}
+
+button:hover {
+    background-color: white;
+    color: rgb(0, 149, 255);
+    border: none;
+    border-radius: 8px;
+    padding: 15px 32px;
+}
+
+.container {
+    padding: 15px;
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.75);
+}
+
+input {
+    border-radius: 5px;
+    padding: 15px 15px;
+}
+
+img {
+    border-radius: 5px;
+}
+
+.responsive {
+    max-width: 100%;
+    height: auto;
+}
+
+div[id="luas-form"] {
+    display: none;
+}
+
+div[id="keliling-form"] {
+    display: none;
+}

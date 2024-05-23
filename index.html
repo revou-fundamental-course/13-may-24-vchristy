@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tugas Mini Coding Kalkulator Matematik</title>
+    <link rel="stylesheet" href="./css/style.css" />
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <h1 id="title-text">
+                Kalkulator Segitiga
+            </h1>
+            <p id="subtitle-text">
+                Welcome!
+                <br>
+                Klik tombol luas untuk mencari luas segitiga atau tombol
+                keliling untuk mencari keliling segitiga.
+            </p>
+            <img id="main-img" src="./assets/segitiga_img.png" class="responsive">
+        </header>
+
+        <nav>
+            <button id="luas-btn" onclick="showForm('luas-form')">
+                Luas
+            </button>
+
+            <button id="keliling-btn" onclick="showForm('keliling-form')">
+                Keliling
+            </button>
+        </nav>
+
+        <section>
+            <div id="luas-form">
+                <h3 id="luas-title">Hitung Luas</h3>
+
+                <label>Alas :</label>
+                <input id="alas" type="number" placeholder="Input alas">
+
+                <br><br>
+
+                <label>Tinggi :</label>
+                <input id="tinggi" type="number" placeholder="Input tinggi">
+
+                <br><br>
+
+                <button id="luas-hitung" onclick="luas();">
+                    Hitung
+                </button>
+
+                <p id="luas-result">Result</p>
+            </div>
+
+            <div id="keliling-form">
+                <h3 id="keliling-title">Hitung Keliling</h3>
+
+                <label>Sisi A:</label>
+                <input id="sisi-a" type="number" placeholder="Input panjang A">
+
+                <br><br>
+
+                <label>Sisi B:</label>
+                <input id="sisi-b" type="number" placeholder="Input panjang B">
+
+                <br><br>
+
+                <label>Sisi C:</label>
+                <input id="sisi-c" type="number" placeholder="Input panjang C">
+
+                <br><br>
+
+                <button id="keliling-hitung" onclick="keliling();">
+                    Hitung
+                </button>
+
+                <p id="keliling-result">Result</p>
+            </div>
+        </section>
+
+        <footer>
+            <p id="footer-text">
+                <b>vchristy 2024</b>
+            </p>
+        </footer>
+    </div>
+
+    <script src="./js/script.js"></script>
+
+</body>
+
+</html>
